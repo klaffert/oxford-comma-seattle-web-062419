@@ -9,4 +9,4 @@ else
   more_fruit << #{value}
 end
 end 
-
+end
