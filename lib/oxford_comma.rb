@@ -8,6 +8,5 @@ else
   array.each do |value| puts ", "
   more_fruit << #{value}
 end
-puts more_fruit
 end 
 end 
