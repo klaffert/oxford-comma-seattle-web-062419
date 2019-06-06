@@ -6,3 +6,4 @@ elsif array.size == 2
 else array.each do {|value| puts value}
 end
 end
+end 
