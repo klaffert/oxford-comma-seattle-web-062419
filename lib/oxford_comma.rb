@@ -4,6 +4,8 @@ if array.size == 1
 elsif array.size == 2 
   array.join(" and ")
 else array.length == 3
-  array.each {|value| puts value, "hello"}
+  array.each {|value| puts value.to_a}
 end
 end 
+
+  
