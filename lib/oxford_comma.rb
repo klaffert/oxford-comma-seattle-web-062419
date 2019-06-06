@@ -6,6 +6,7 @@ elsif array.size == 2
 else 
   more_fruit = []
   array.each do |value| puts ", "
+  more_fruit << #{value}
 end
 end 
 
