@@ -5,7 +5,7 @@ elsif array.size == 2
   array.join(" and ")
 else 
   more_fruit = []
-  array.each do |value| puts ", "
+  array.each do {|value| puts ", "}
   more_fruit << #{value}
 end
 end 
