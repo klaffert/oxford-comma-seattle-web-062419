@@ -3,7 +3,7 @@ if array.size == 1
   array.join(" and ")
 elsif array.size == 2 
   array.join(" and ")
-else array.each_index
+else array.each 
   "kiwi, durian, and starfruit"
 end
 end
