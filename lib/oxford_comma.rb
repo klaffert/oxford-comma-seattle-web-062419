@@ -3,7 +3,9 @@ if array.size == 1
   array.join(", ")
 elsif array.size == 2 
   array.join(" and ")
-else array.length == 3
+else 
+  more_fruit = []
+  
   array.each {|value| puts value.to_s}
 end
 end 
