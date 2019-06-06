@@ -4,3 +4,4 @@ if array.size == 2
 else array.size == 3 
   puts "kiwi, durian, and starfruit"
 end
+end
